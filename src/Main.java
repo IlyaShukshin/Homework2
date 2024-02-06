@@ -51,10 +51,10 @@ public class Main {
         System.out.println("Разница в весе между боксёрами " + weightDifference + "кг");
 
         System.out.println("Задача №7");
-        var a = 78.2;
-        var b = 82.7;
-        var c = b % a;
-        System.out.println(c);
+        boxerWeight1 = 78.2;
+        boxerWeight2= 82.7;
+        var remainder = boxerWeight2 % boxerWeight1;
+        System.out.println(remainder);
 
         System.out.println("Задача №8");
         var allHours = 640;
